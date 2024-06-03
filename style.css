@@ -22,7 +22,6 @@ body {
 
 .background {
   display: inline-block;
-  border: 2px solid blue;
   position: relative;
 }
 
@@ -31,19 +30,28 @@ body {
 }
 
 .background__img img {
-  display: block;
+  display: inline-block;
   height: 100%;
+  vertical-align: top;
 }
 
 .background__logo {
   position: absolute;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background: rgba(0, 0, 0, 0.7);
   width: 100%;
   top: 15vh;
 }
 
+.background__logo img {
+  display: inline-block;
+  max-height: 8rem;
+}
+
 .background__logo--title {
   font-family: 'norsebold', sans-serif;
   color: white;
+  font-size: 6rem;
 }
