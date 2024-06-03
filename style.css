@@ -35,6 +35,19 @@ a {
   font-weight: 700;
 }
 
+label {
+  display: block;
+}
+
+input,
+select,
+textarea,
+button {
+  appearance: none;
+  border: #E5E7EB;
+  box-shadow: 0 0 2px grey;
+}
+
 /* Styles */
 
 .background {
@@ -104,5 +117,20 @@ a {
 .main__signup--controls {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2rem 2rem 2rem;
+  grid-template-rows: 3rem 3rem 3rem;
+  grid-gap: .2rem;
+}
+
+.main__signup--controls label {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .8rem;
+  letter-spacing: .1rem;
+  margin-bottom: .2rem;
+}
+
+.main__signup--controls input {
+  padding: .3rem 0 .3rem .2rem;
+  border-radius: 5px;
+  width: 250px;
 }
