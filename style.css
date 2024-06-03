@@ -98,6 +98,7 @@ a {
 .main__signup {
   background: #fff;
   box-shadow: 0 1px 3px rgb(186, 186, 186);
+  padding: 3rem 0;
 }
 
 .main__signup--controls {
