@@ -73,9 +73,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 2rem;
   border: 2px solid red;
   width: 100%;
   background: rgba(235, 235, 235, 0.89);
+}
+
+.main__message {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .main__signup {
