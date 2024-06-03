@@ -17,6 +17,13 @@
 
 body {
   margin: 0;
+  padding: 0;
+}
+
+.background {
+  display: inline-block;
+  border: 2px solid blue;
+  position: relative;
 }
 
 .background__img {
@@ -28,6 +35,15 @@ body {
   height: 100%;
 }
 
+.background__logo {
+  position: absolute;
+  display: flex;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  top: 15vh;
+}
+
 .background__logo--title {
   font-family: 'norsebold', sans-serif;
+  color: white;
 }
