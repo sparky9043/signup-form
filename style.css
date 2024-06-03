@@ -132,3 +132,14 @@ button {
   border-radius: 5px;
   width: 250px;
 }
+
+.main__buttons--button {
+  display: inline-block;
+  font-family: inherit;
+  color: #fff;
+  background: #596D48;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 2px black;
+}
