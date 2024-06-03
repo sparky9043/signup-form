@@ -19,6 +19,15 @@ body {
   margin: 0;
 }
 
+.background__img {
+  height: 100vh;
+}
+
+.background__img img {
+  display: block;
+  height: 100%;
+}
+
 .background__logo--title {
   font-family: 'norsebold', sans-serif;
 }
