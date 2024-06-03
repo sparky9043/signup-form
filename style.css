@@ -25,7 +25,7 @@ body {
 
 .container {
   width: 80%;
-  margin-left: 1rem;
+  margin-left: 3rem;
 }
 
 a {
@@ -71,19 +71,19 @@ button {
   align-items: center;
   background: rgba(0, 0, 0, 0.4);
   width: 100%;
-  top: 15vh;
-  padding: 1rem 0;
+  top: 20vh;
+  padding: 2rem 0;
 }
 
 .background__logo img {
   display: inline-block;
-  max-height: 7rem;
+  max-height: 8rem;
 }
 
 .background__logo--title {
   font-family: 'norsebold', sans-serif;
   color: white;
-  font-size: 5.5rem;
+  font-size: 7rem;
   margin: 0;
 }
 
@@ -103,7 +103,7 @@ button {
 .main__message {
   font-weight: 700;
   font-size: 1.5rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .main__signup {
@@ -116,7 +116,7 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 3rem 3rem 3rem;
-  grid-gap: .2rem;
+  grid-gap: .5rem;
 }
 
 .main__signup--controls label {
