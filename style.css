@@ -116,7 +116,7 @@ button {
   display: grid;
   grid-template-columns: 300px 1fr;
   grid-template-rows: 3rem 3rem 3rem;
-  grid-gap: 1rem;
+  grid-gap: 1vw;
 }
 
 .main__signup--controls label {
@@ -142,6 +142,7 @@ button {
   font-size: 1.1rem;
   border-radius: 10px;
   box-shadow: 0 0 2px black;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 1000px) {
