@@ -45,6 +45,7 @@ button {
   appearance: none;
   border: #E5E7EB;
   box-shadow: 0 0 2px grey;
+  position: relative;
 }
 
 /* Styles */
@@ -140,7 +141,21 @@ button {
 
 .main__signup--controls input:invalid {
   outline: 1px solid red;
+  margin-bottom: .2rem;
 }
+
+input[type="password"]:invalid + span {
+  position: relative;
+  display: flex;
+}
+
+input[type="password"]:invalid + span::after {
+  position: absolute;
+  color: red;
+  content: '* Passwords do not match';
+  font-size: .7rem;
+}
+
 
 .main__buttons--button {
   display: inline-block;
