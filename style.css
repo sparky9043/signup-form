@@ -138,6 +138,10 @@ button {
   box-shadow: 0 0 3px rgb(100, 100, 100);
 }
 
+.main__signup--controls input:invalid {
+  outline: 1px solid red;
+}
+
 .main__buttons--button {
   display: inline-block;
   font-family: inherit;
